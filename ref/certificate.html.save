@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ประกาศนียบัตร</title>
+        <link rel="stylesheet" href="css2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Athiti&family=Bai+Jamjuree&family=Chakra+Petch:wght@500&family=Kanit&family=Prompt&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>ประกาศนียบัตรของผม</h1>
+        <div class="tip">
+            <p>Tip : ใช้ Mouse ชี้ที่เกียรติบัตรต่างๆ เพื่อขยาย</p>
+            <h2>ส่วนที่เกี่ยวกับการเขียนโปรแกรม</h2>
+        </div>
+        <hr>
+        <div class="CertiZone">
+            <h3>HTML5</h3>
+            <img src="Certificate/Sololearn_HTML.jpg" alt="" class="certi">
+            <h3>css</h3>
+            <img src="Certificate/Sololearn_IntroCSS.jpg" alt="" class="certi">
+            <h3>JavaScript</h3>
+            <img src="Certificate/PH_JS.jpg" alt="" class="certi">
+            <img src="Certificate/Solearn_IntroJS.jpg" alt="" class="certi">
+            <h3>Python</h3>
+            <img src="Certificate/PH_Python.jpg" alt="" class="certi">
+            <img src="Certificate/PH_Python3.jpg" alt="" class="certi">
+            <img src="Certificate/PH_PythonAdvance.jpg" alt="" class="certi">
+            <img src="Certificate/Sololearn_IntroPython.jpg" alt="" class="certi">
+            <h3>C#</h3>
+            <img src="Certificate/PH_Csharp.jpg" alt="" class="certi">
+            <img src="Certificate/Sololearn_Csharp.jpg" alt="" class="certi">
+            <h3>Java</h3>
+            <img src="Certificate/PH_Java.jpg" alt="" class="certi">
+            <img src="Certificate/Solearn_IntroJava.jpg" alt="" class="certi">
+	    <h3> Linux </h3>
+	    <img src="Certificate/PH_Linux.png" alt="" class="certi" >
+        </div>
+        <h2>ส่วนที่เกี่ยวกับทางเทคนิค</h2>
+        <hr>
+        <div class="CertiZone">
+            <h3>Technical</h3>
+            <img src="Certificate/PH_ITbasics.jpg" alt="" class="certi">
+            <h3>Data Management</h3>
+            <img src="Certificate/GRT_Excel.png" alt="" class="certi">
+            <h3>Game Dev</h3>
+            <img src="Certificate/PH_Unity.jpg" alt="" class="certi">
+        </div>
+        <h2>ส่วนอื่นๆ</h2>
+        <div class="CertiZone">
+            <h3>รางวัลที่ 1 การสอบการแข่งขันทักษะภาษาอังกฎษระดับจังหวัด</h3>
+            <img src="Certificate/TheNO1_EnglishNationalTest.jpg" class="certi">
+            <h3>รางวัลที่ 1 เกรดเฉลี่ยสูงสุดในระดับ ม.5/9</h3>
+            <img src="Certificate/TheNO1_5-9.jpg" class="certi">
+            <h3>รางวัลที่ 1 เกรดเฉลี่ยสูงสุดในระดับ ม.6/9</h3>
+            <img src="Certificate/TheNO1_6-9.jpg" class="certi">
+            <h3>รางวัลรองชนะเลิศ อันดับที่ 1 การแข่งขัน Impromptu Speech ระดับ ม.4 - ม.6</h3>
+            <img src="Certificate/TheNO2_ImpromptuSH.jpg" class="certi">
+            <h3>รางวัลผ่านกิจกรรม English Day Camp โดย <i>Center One Education</i></h3>
+            <img src="Certificate/EDC.jpg" class="certi">
+            <h3>วุฒิบัตรแห่งอาสาสมัครพัฒนาความมั่นคงของมนุษย์</h3>
+            <img src="Certificate/GoodyDrive.jpg" class="certi">
+        </div>
+        <footer>
+            <p>&copy; จักรพรรดิ์ นิทรัพย์ - มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี 2023~2024</p>
+        </footer>
+    </body>
+</html>
