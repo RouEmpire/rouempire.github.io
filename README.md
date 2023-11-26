@@ -7,7 +7,7 @@
 
 
 สำหรับ Linux
-```
+```sh
 file:///path/to/the/index.html
 ```
 ### โปรเจกต์นี้
