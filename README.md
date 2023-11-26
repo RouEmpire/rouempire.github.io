@@ -20,7 +20,10 @@ file:///path/to/the/index.html
 ## ภาษาที่ใช้
 
 **Markup :** HTML, CSS
+
 **Framwork :** None
+
+**Code :** None (For กรรมการ Security)
 
 ## Dev
 นาย จักรพรรดิ์ นิทรัพย์ (AKA **RouEmpire**) - ผู้พัฒนา
