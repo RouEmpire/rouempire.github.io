@@ -7,7 +7,7 @@
 
 
 สำหรับ Linux
-```sh
+```
 file:///path/to/the/index.html
 ```
 ### โปรเจกต์นี้
@@ -20,6 +20,7 @@ file:///path/to/the/index.html
 ## ภาษาที่ใช้
 
 **Markup :** HTML, CSS
+**Framwork :** None
 
 ## Dev
 นาย จักรพรรดิ์ นิทรัพย์ (AKA **RouEmpire**) - ผู้พัฒนา
