@@ -1,0 +1,89 @@
+@keyframes BodyCCC {
+    0% {background-color: lightblue;}
+    100% {background-color: lightskyblue;}
+}
+@font-face {
+    font-family:DefA;
+    src: url(Athiti-Regular.ttf);
+}
+
+
+body {
+    background-color: lightskyblue;
+    font-family: Athiti,DefA;
+    animation-name: BodyCCC;
+    animation-duration: 2s;
+}
+h1 {
+    text-align: center;
+    font-family: 'Bai Jamjuree',DefA;
+
+}
+#proflie {
+    position: absolute;
+    top: 30px; max-width: 20%;
+    right: 40px; max-height: 25%;
+    size: 10% 10% 10% 10%;
+    border: 3px solid burlywood;
+    border-radius: 12px;
+    filter: saturate(2);
+    box-shadow: 0px 0px 2px black;
+    transition: transform 1s,filter 1s,border-radius 1.1s,translate 1s ease-in,box-shadow 0.9s ease-out;
+}
+#proflie:hover {
+    transform: scale(2);
+    filter: saturate(1);
+    border-radius: 20px;
+    translate: -85px 70px;
+    box-shadow: -8px 8px 12px rgba(0, 0, 0, 0.426);
+}
+footer {
+    width: 80%; height: 8%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: yellow;
+    text-align: center;
+    align-items: center;
+    border: 5px solid rgb(0, 9, 12);
+    border-radius: 10px;
+    transition: height 1s,width 1s,color 0.5s, background-color 0.5s, border-radius 1s;
+}
+footer:hover {
+    width: 70%;
+    color: white;
+    background-color: maroon;
+    border-radius: 15px;
+    height: 7.5%;
+}
+hr {
+    margin: 30px 5px 3px 5px;
+}
+table {
+    border: 2px solid black;
+
+}
+.CerButton {
+    border: 3px dashed darkcyan;
+    background-image: url(BlueSmokey.jpeg);
+    font-size: 15px;
+    font-family: Prompt,DefA;
+    text-decoration: none;
+    color: blanchedalmond;
+    text-align: center;
+    width: 15%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+
+    transition: border 1s,border-radius 1s ease-in, width 1s,height 1s,font-size 1s ;
+}
+.CerButton:hover {
+    border: 2px solid darkcyan;
+    border-radius: 100px;
+    width: 180px; height: 70px;
+    font-size: larger;
+}
+.CerButton p a{
+    text-decoration: none; color: aliceblue;
+
+}
