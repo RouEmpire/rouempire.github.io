@@ -1,7 +1,7 @@
 @keyframes BodyChangingColor {
     0% {background-color: white;}
     20% {background-color: whitesmoke;}
-    100% {background-color: lightblue;}
+    100% {background-color: #212121;}
 }
 @font-face {
     font-family: DefA;
@@ -9,10 +9,11 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: #212121;
     animation-name: BodyChangingColor;
     animation-duration: 2s;
-    font-family: DefA, Athiti;  
+    font-family: DefA, Athiti; 
+    color: antiquewhite;
 }
 footer {
     width: 80%; height: 8%;
