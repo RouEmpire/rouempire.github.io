@@ -1,6 +1,6 @@
 @keyframes BodyCCC {
-    0% {background-color: lightblue;}
-    100% {background-color: lightskyblue;}
+    0% {background-color: #212121;}
+    100% {background-color: rgb(32, 5, 58);}
 }
 @font-face {
     font-family: DefA;
@@ -9,10 +9,11 @@
 
 
 body {
-    background-color: lightskyblue;
+    background-color: rgb(32, 5, 58);
     font-family: Athiti,DefA;
     animation-name: BodyCCC;
     animation-duration: 2s;
+    color: antiquewhite;
 }
 h1 {
     text-align: center;
@@ -30,22 +31,6 @@ h1 {
 h1:hover {
     box-shadow: 0px 0px 50px darkblue inset;
 }
-h2 {
-    background-color: darkblue;
-    text-align: center;
-    color: beige;
-    font-family: 'Chakra Petch',DefA;
-    padding: 10px 0px 10px 0px;
-    width: 45%;
-    margin: auto;
-    font-size: 22px;
-    border-radius: 15px;
-    transition: background-color 1s,width 0.4s;
-}
-h2:hover {
-    background-color: black;
-    width: 40%;
-}
 h3 {
     font-family: Prompt,DefA;
 }
@@ -55,6 +40,7 @@ h3 {
     right: 30px;
 }
 footer {
+    color: black;
     width: 80%; height: 8%;
     margin: auto;
     margin-top: 50px;
@@ -94,17 +80,70 @@ footer:hover {
 .CertiZone {
     height: auto; width: auto;
     border: 3px solid peachpuff;
-    background-color: #C3E0F2;
+    background-color: #191919;
     padding: 15px;
     border-radius: 30px;
     margin: 10px 2px 10px 2px;
     transition: background-color 2s,border 2s,padding 2s ease-in-out;
 }
 .CertiZone:hover {
-    background-color: #85d0e7;
+    background-color: #202020;
     border: 2px solid peachpuff;
     padding: 25px;
 }
 .tip {
     display:block;
 }
+
+
+
+
+
+.SuperBtn {
+    width: 260px;
+    height: 50px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: auto;
+    font-size: 10px;
+  }
+  
+.SuperBtn h2 {
+z-index: 1;
+color: white;
+font-size: 2em;
+}
+
+.SuperBtn::before {
+content: '';
+position: absolute;
+width: 300px;
+background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+height: 3400%;
+animation: rotBGimg 3s linear infinite;
+transition: all 0.2s ease-in;
+}
+
+@keyframes rotBGimg {
+0% { transform: scale(10%); }
+50% { transform: scale(100%); }
+100% { transform: scale(10%); }
+}
+
+.SuperBtn::after {
+content: '';
+position: absolute;
+background: #07182E;
+;
+inset: 5px;
+border-radius: 15px;
+}  
+/*.SuperBtn:hover:before {
+background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+animation: rotBGimg 3.5s linear infinite;
+}*/

@@ -21,9 +21,9 @@ file:///path/to/the/index.html
 
 **Markup :** HTML, CSS
 
-**Framwork :** None
+**Code :** JavaScript
 
-**Code :** None (For กรรมการ Security)
+**Framwork :** None
 
 ## Dev
 นาย จักรพรรดิ์ นิทรัพย์ (AKA **RouEmpire**) - ผู้พัฒนา

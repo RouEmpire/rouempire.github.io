@@ -1,6 +1,6 @@
 @keyframes BodyChangingColor {
-    0% {background-color: white;}
-    20% {background-color: whitesmoke;}
+    0% {background-color: #000010;}
+    20% {background-color: black;}
     100% {background-color: #212121;}
 }
 @font-face {
@@ -19,6 +19,7 @@ footer {
     width: 80%; height: 8%;
     margin: auto;
     margin-top: 50px;
+    color: black;
     background-color: yellow;
     text-align: center;
     align-items: center;
@@ -56,8 +57,11 @@ h3 {
     height: fit-content;
     border-radius: 2px;
     border: 10 solid black;
-    color: black;
+    color: lightsteelblue;
     transition:border 0.5s, border-radius 0.5s,color 2s;
+}
+#CTM {
+    color: darkblue;
 }
 h3:hover {
     border: 1 dashed darkcyan;
@@ -67,6 +71,7 @@ h3:hover {
 h4 {
     margin: 20px 3px 4px 3px;
     transition: color 0.5s;
+    color: thistle;
 }
 h4:hover {
     color: crimson;
@@ -127,4 +132,5 @@ section ul li a{
     padding: 10px 30px 10px 30px;
     background-image: url(Texture/L_brightness.jpg);
     background-size: cover;
+    color: black;
 } 
