@@ -26,4 +26,4 @@ file:///path/to/the/index.html
 **Framwork :** None
 
 ## Dev
-นาย จักรพรรดิ์ นิทรัพย์ (AKA **RouEmpire**) - ผู้พัฒนา
+นาย จักรพรรดิ์ นิทรัพย์ (AKA **RouEmpire**)
