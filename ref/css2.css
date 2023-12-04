@@ -78,6 +78,7 @@ footer:hover {
     box-shadow: 12px 12px 15px black;
 }
 .CertiZone {
+    visibility: visible;
     height: auto; width: auto;
     border: 3px solid peachpuff;
     background-color: #191919;
