@@ -84,7 +84,7 @@ footer:hover {
     box-shadow: 12px 12px 15px black;
 }
 .CertiZone {
-    visibility: visible;
+    display: block;
     height: auto; width: auto;
     border: 3px solid peachpuff;
     background-color: #191919;
@@ -168,6 +168,7 @@ div .backbutton button {
     background-color: #212121;
     animation: ButtonAnimation 6s infinite;
     margin: 4px;
+    width: 120px;
 }
 div .backbutton button:hover {
     transition: 20ms ease-in;
