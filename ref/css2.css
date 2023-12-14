@@ -2,6 +2,11 @@
     0% {background-color: #212121;}
     100% {background-color: rgb(32, 5, 58);}
 }
+@keyframes ButtonAnimation {
+    0% {color:rgb(78, 78, 105);}
+    50% {color: antiquewhite;}
+    100% {color:rgb(78, 78, 105);}
+}
 @font-face {
     font-family: DefA;
     src: url(Athiti-Regular.ttf);
@@ -67,6 +72,7 @@ footer:hover {
     border-radius: 20px;
     transition:margin 0.3s, transform 0.4s,border-radius 1.1s,border 1s,box-shadow 1s;
     box-shadow: 0px 0px 15px darkmagenta;
+    
 }
 .certi:hover {
     image-rendering: optimizeQuality;
@@ -148,3 +154,23 @@ border-radius: 15px;
 background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
 animation: rotBGimg 3.5s linear infinite;
 }*/
+
+div .backbutton {
+    position: sticky;
+    display: block;
+    top: 20px;
+    width: 120px;
+    margin-left: auto;
+}
+div .backbutton button {
+    border: whitesmoke solid 2px;
+    border-radius: 3%;
+    background-color: #212121;
+    animation: ButtonAnimation 6s infinite;
+    margin: 4px;
+}
+div .backbutton button:hover {
+    transition: 20ms ease-in;
+    border-radius: 10px;
+}
+
